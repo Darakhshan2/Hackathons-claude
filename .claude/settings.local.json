@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(create-phr.sh:*)",
+      "Bash(git fetch:*)",
+      "Bash(.specify/scripts/powershell/check-prerequisites.ps1:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

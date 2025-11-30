@@ -1,53 +1,55 @@
-<!--
-Sync Impact Report:
-Version change: 0.0.0 (initial) -> 1.0.0
-Modified principles:
-- I. Scientific Rigor & Accuracy
-- II. Clarity & Accessibility
-- III. Comprehensive Coverage
-- IV. Practical Relevance
-- V. Ethical Considerations
-Added sections:
-- Core Principles
-- Content Guidelines
-- Review and Revision Process
-- Governance
-Removed sections: None
-Templates requiring updates:
-- .specify/templates/plan-template.md: ✅ updated (no change needed)
-- .specify/templates/spec-template.md: ✅ updated (no change needed)
-- .specify/templates/tasks-template.md: ✅ updated (no change needed)
-Follow-up TODOs: None
--->
-# Physical AI and Humanoid Robotics Textbook Constitution
+# [PROJECT_NAME] Constitution
 <!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
 
 ## Core Principles
 
-### I. Scientific Rigor & Accuracy
-Every statement and concept presented must be factually correct, evidence-based, and supported by credible scientific research. All claims must be properly cited with up-to-date references. Content must undergo thorough verification by subject matter experts.
+### [PRINCIPLE_1_NAME]
+<!-- Example: I. Library-First -->
+[PRINCIPLE_1_DESCRIPTION]
+<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
 
-### II. Clarity & Accessibility
-The textbook must be written in clear, concise, and accessible language, ensuring complex topics are understandable to the intended audience. Explanations should follow a logical progression, building from foundational concepts to advanced topics. Technical jargon should be explained thoroughly upon first use.
+### [PRINCIPLE_2_NAME]
+<!-- Example: II. CLI Interface -->
+[PRINCIPLE_2_DESCRIPTION]
+<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
 
-### III. Comprehensive Coverage
-The content must provide a broad yet deep exploration of "Physical AI and Humanoid Robotics," encompassing foundational theories, historical context, current state-of-the-art advancements, emerging trends, and future challenges. Key sub-domains (e.g., perception, manipulation, locomotion, human-robot interaction) should be adequately covered.
+### [PRINCIPLE_3_NAME]
+<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
+[PRINCIPLE_3_DESCRIPTION]
+<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
 
-### IV. Practical Relevance
-The textbook should include real-world examples, case studies, and practical applications of physical AI and humanoid robotics to illustrate theoretical concepts and enhance reader engagement. Where appropriate, hands-on exercises or thought experiments may be incorporated.
+### [PRINCIPLE_4_NAME]
+<!-- Example: IV. Integration Testing -->
+[PRINCIPLE_4_DESCRIPTION]
+<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
 
-### V. Ethical Considerations
-The ethical implications, societal impact, and responsible development of physical AI and humanoid robotics must be explicitly addressed throughout the textbook. This includes discussions on bias, safety, autonomy, and the future of work.
+### [PRINCIPLE_5_NAME]
+<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
+[PRINCIPLE_5_DESCRIPTION]
+<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
 
-## Content Guidelines
+### [PRINCIPLE_6_NAME]
 
-All chapters must adhere to a consistent structure, tone, and citation style (e.g., APA, IEEE). Visuals (diagrams, images, graphs) should be high-quality, relevant, and clearly annotated. Each chapter should include learning objectives, summaries, and review questions.
 
-## Review and Revision Process
+[PRINCIPLE__DESCRIPTION]
 
-Content will undergo a multi-stage review process involving peer review, technical review by domain experts, and editorial review for clarity and style. Revisions will be made iteratively based on feedback, ensuring continuous improvement and accuracy. A formal update cycle will be established for future editions.
+## [SECTION_2_NAME]
+<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+
+[SECTION_2_CONTENT]
+<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+
+## [SECTION_3_NAME]
+<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+
+[SECTION_3_CONTENT]
+<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
 
 ## Governance
-This constitution serves as the foundational document guiding the development of the "Physical AI and Humanoid Robotics" textbook. All content creation, review, and revision activities must adhere to these principles. Amendments to this constitution require a formal proposal, review by key stakeholders, and a documented approval process.
+<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-**Version**: 1.0.0 | **Ratified**: 2025-11-29 | **Last Amended**: 2025-11-29
+[GOVERNANCE_RULES]
+<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+
+**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
+<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->

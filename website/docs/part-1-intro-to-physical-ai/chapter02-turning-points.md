@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Chapter 02: Physical AI Turning Points
 
 ## Pivotal Moments in Embodied Intelligence

@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Chapter 01: Evolution of Physical AI
 
 ## Tracing the Trajectory of Embodied Intelligence

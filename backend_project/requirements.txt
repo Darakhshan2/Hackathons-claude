@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+qdrant-client
+fastembed
+python-multipart
+langchain
+pypdf
+python-dotenv
+boto3

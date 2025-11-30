@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+title: Introduction to Physical AI
+---
+
 # Part 1: Introduction To Physical AI
 
 ## The Dawn of Embodied Intelligence
